@@ -12,7 +12,7 @@ docker run --rm \
  -e MYSQL_PASSWORD=XXX \
  -e MYSQL_HOST=mysql \
  -e BASE_PATH=my_custom_path/my_custom_basename \
-fizix/mysql-s3-backup-restore  \
+pablitus1/mysql-s3-backup-restore  \
 /backup
 ```
 
@@ -28,6 +28,6 @@ docker run --rm \
  -e MYSQL_PASSWORD=XXX \
  -e MYSQL_HOST=mysql \
  -e BASE_PATH=my_custom_path/my_custom_basename \
-fizix/mysql-s3-backup-restore  \
+pablitus1/mysql-s3-backup-restore  \
 /restore
 ```
