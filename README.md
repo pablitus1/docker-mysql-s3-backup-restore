@@ -1,4 +1,4 @@
-alpine + mysql-client + awscli + backup & restore script
+alpine + mysql-client + awscli + rclone + backup & restore script
 
 ## Backup
 
